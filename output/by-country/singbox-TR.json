@@ -4,16 +4,8 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
-      "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
-      "server": "188.132.174.236",
-      "server_port": 1080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "rSeYcig_XBy8q3k33NpK3A"
-    },
-    {
       "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
+      "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
       "server": "156.67.63.231",
       "server_port": 443,
       "uuid": "b052df40-d51c-456c-9bd6-57af01a87e4e",
@@ -33,11 +25,32 @@
       }
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
+      "server": "188.132.174.236",
+      "server_port": 1080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "rSeYcig_XBy8q3k33NpK3A"
+    },
+    {
       "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
-      "server": "app.life-pro.ir",
-      "server_port": 8082,
-      "uuid": "79f98593-6a21-4783-a425-3d5609a79df1"
+      "server": "connect3.nyxserver.ir",
+      "server_port": 8444,
+      "uuid": "0b39a009-2a2a-4035-ba87-cc82894f8e21",
+      "tls": {
+        "enabled": true,
+        "server_name": "connect3.nyxserver.ir",
+        "insecure": false,
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "type": "selector",
