@@ -4,32 +4,32 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇶 IQ 01 - xiaohe
-  server: 104.21.3.133
-  port: 2083
+- name: 🇯🇵 日本 (Japan) 01 (家宽) - xiaohe
+  server: 207.148.99.230
+  port: 443
   udp: true
   type: vless
-  uuid: 2b8738de-1af5-4267-b101-c05707769ed4
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   tls: true
-  servername: fans.liverpool.qzz.io
+  servername: cdn8848.776676.xyz
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /eyJqdW5rIjoiY0Y0cENQUmxsNyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
+    path: /
     headers:
-      Host: fans.liverpool.qzz.io
+      Host: cdn8848.776676.xyz
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇶 IQ 01 - xiaohe
+  - 🇯🇵 日本 (Japan) 01 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇶 IQ 01 - xiaohe
+  - 🇯🇵 日本 (Japan) 01 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES
