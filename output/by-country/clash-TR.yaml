@@ -5,18 +5,14 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 - xiaohe
-  server: tr.curry-load.rutube.info
-  port: 443
+  server: 93.190.9.9
+  port: 3090
   udp: true
   type: vless
-  uuid: ad297a2b-ae17-4d2d-8fce-e2eafb89b145
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: bjqOUjqNQMF6NZ2kRis0NTNTcpdLBrr7CvZjFATrhg8
-    short-id: 08
-  servername: dw.b-cdn.net
-  client-fingerprint: firefox
+  uuid: c4a36c29-39db-4782-b7cb-6e391461a999
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless
 proxy-groups:
 - name: PROXIES
   type: select

@@ -6,22 +6,12 @@
     {
       "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
-      "server": "tr.curry-load.rutube.info",
-      "server_port": 443,
-      "uuid": "ad297a2b-ae17-4d2d-8fce-e2eafb89b145",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "dw.b-cdn.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "bjqOUjqNQMF6NZ2kRis0NTNTcpdLBrr7CvZjFATrhg8",
-          "short_id": "08"
-        }
+      "server": "93.190.9.9",
+      "server_port": 3090,
+      "uuid": "c4a36c29-39db-4782-b7cb-6e391461a999",
+      "transport": {
+        "type": "grpc",
+        "service_name": "vless"
       }
     },
     {
