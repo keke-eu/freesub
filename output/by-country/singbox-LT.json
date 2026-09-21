@@ -5,26 +5,23 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe",
-      "server": "kz.cdn-update.rutube.info",
-      "server_port": 8443,
-      "uuid": "ad297a2b-ae17-4d2d-8fce-e2eafb89b145",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 01 - xiaohe",
+      "server": "84.32.215.94",
+      "server_port": 443,
+      "uuid": "c5694dc5-39fd-4a92-8430-3837baa522a3",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "dest1.cdn-update.rutube.info",
+        "server_name": "lt.aether-runet.top",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "-AdhgMZeNHR2zAmGWa5peg7Ni0-e4IVMoSzydC9n7C4",
-          "short_id": "08"
+          "public_key": "vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk",
+          "short_id": "4fa44664f6a566d3"
         }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "grpc"
       }
     },
     {
@@ -32,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe"
+        "🇱🇹 立陶宛 (Lithuania) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe"
+        "🇱🇹 立陶宛 (Lithuania) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

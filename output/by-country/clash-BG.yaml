@@ -5,30 +5,24 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe
-  server: 131.123.41.18
-  port: 443
+  server: 192.145.31.5
+  port: 8443
   udp: true
   type: vless
-  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
-  flow: xtls-rprx-vision
+  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
   tls: true
-  reality-opts:
-    public-key: pX9uknHGLC9I26TT5kq4bIAljtX2AGWLK23EMgn6xFo
-    short-id: 84be686ea1d16478
-  servername: sheetpeek.com
+  servername: neth9.lunariai.ru
+  skip-cert-verify: false
   client-fingerprint: chrome
 - name: 🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe
-  server: 45.9.156.103
+  server: 192.145.31.5
   port: 443
   udp: true
   type: vless
-  uuid: e633de28-bfc0-4aca-aa67-e2e12e2c9e58
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: SARDrN_d46PsugT2k5ILoQAJqaA1eCOZhe1BjKMonj8
-  servername: mzone.bg.3cloudhost.com
-  client-fingerprint: chrome
+  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
+  network: ws
+  ws-opts:
+    path: /
 proxy-groups:
 - name: PROXIES
   type: select
