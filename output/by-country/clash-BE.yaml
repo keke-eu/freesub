@@ -4,31 +4,32 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇹🇷 土耳其 (Turkey) 01 - xiaohe
-  server: 104.17.169.13
-  port: 2053
+- name: 🇧🇪 比利时 (Belgium) 01 - xiaohe
+  server: 141.98.233.6
+  port: 443
   udp: true
   type: vless
-  uuid: a22bff60-a40a-4250-bde2-4c660e363b47
+  uuid: b2593749-691c-428c-9481-14979cba3446
   tls: true
-  servername: inDeX.HaRMONiCA01.WORkers.DeV
+  servername: xi.tbv.ccwu.cc
   skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /axch1mttbxz2k55y01
+    path: /proxyip=us.xiabibi.cf
     headers:
-      Host: inDeX.HaRMONiCA01.WORkers.DeV
+      Host: xi.tbv.ccwu.cc
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
+  - 🇧🇪 比利时 (Belgium) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
+  - 🇧🇪 比利时 (Belgium) 01 - xiaohe
 rules:
 - MATCH,PROXIES
