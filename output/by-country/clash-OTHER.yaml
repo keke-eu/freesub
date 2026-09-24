@@ -5,20 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 172.67.134.13
+  server: 104.18.14.103
   port: 443
   udp: true
   type: vless
-  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
+  uuid: 3c6d1933-b22a-484b-ac8a-63e24f5fba75
   tls: true
-  servername: 1-M13-sTatic-cSS.Xcv.ccwU.CC
+  servername: server9.9966338.xyz
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /ED3ZQPu7lqyeDGD58KabZ
+    path: /imnotarealherox
     headers:
-      Host: 1-M13-sTAtiC-CsS.XCv.cCWu.cC
+      Host: server9.9966338.xyz
 proxy-groups:
 - name: PROXIES
   type: select
