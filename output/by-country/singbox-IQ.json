@@ -4,21 +4,28 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
-      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "104.16.71.213",
+      "type": "vless",
+      "tag": "🇮🇶 IQ 01 - xiaohe",
+      "server": "190.93.244.209",
       "server_port": 443,
-      "password": "humanity",
+      "uuid": "903883c7-e62f-436e-a28c-e777637bb757",
       "tls": {
         "enabled": true,
-        "server_name": "www.calmlunch.com",
-        "insecure": false
+        "server_name": "loaD-Bal-AC000A.sTAGiNg-Api-78c1a1.WorKErs.deV",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/assignment",
+        "path": "/vl/7yxyRoUx67K43EW4zOdKqawWj2mXHsfh?ed=2560",
         "headers": {
-          "Host": "www.calmlunch.com"
+          "Host": "LOAd-bal-Ac000a.StaGInG-aPi-78C1A1.wOrkeRs.dEV"
         }
       }
     },
@@ -27,14 +34,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
