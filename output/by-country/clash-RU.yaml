@@ -58,18 +58,15 @@ proxies:
   servername: assets-tw-113.statsmarket-wb.com
   client-fingerprint: randomized
 - name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
-  server: 157.22.240.20
-  port: 443
+  server: 185.147.27.164
+  port: 8443
   udp: true
   type: vless
-  uuid: f28ce4eb-62cd-45f5-b3b3-be1c1a95e335
+  uuid: 3a90bf69-1ffe-4ebb-b9a7-ad9ba8e9f66f
   flow: xtls-rprx-vision
   tls: true
-  reality-opts:
-    public-key: T1BWBw3lq9G1LiQ7eQSPfdNQic7bUMEbdFNJBewAwB8
-    short-id: 6ad3c0f1e9b2478a
-  servername: yandex.ru
-  client-fingerprint: firefox
+  servername: user-6a8d949a.noooo.win
+  skip-cert-verify: false
 - name: 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
   server: 147.45.175.81
   port: 443
@@ -91,13 +88,6 @@ proxies:
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   sni: cm.g.doubleclick.net
   skip-cert-verify: true
-- name: 🇷🇺 俄罗斯 (Russia) 08 - xiaohe
-  server: 46.17.46.27
-  port: 18443
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
 proxy-groups:
 - name: PROXIES
   type: select
@@ -110,7 +100,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 08 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -123,6 +112,5 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 08 - xiaohe
 rules:
 - MATCH,PROXIES
