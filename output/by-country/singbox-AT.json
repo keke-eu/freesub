@@ -12,31 +12,25 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "type": "shadowsocks",
+      "type": "vmess",
       "tag": "🇦🇹 奥地利 (Austria) 02 - xiaohe",
+      "server": "154.47.19.225",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇦🇹 奥地利 (Austria) 03 - xiaohe",
       "server": "152.53.1.57",
       "server_port": 8388,
       "method": "chacha20-ietf-poly1305",
       "password": "AdawffFMHymlasRb0VOP3HFf7sTG5sJx"
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇹 奥地利 (Austria) 03 - xiaohe",
-      "server": "91.199.147.41",
-      "server_port": 443,
-      "uuid": "4d945644-69ab-47e0-98b3-d43a6313135d",
-      "tls": {
-        "enabled": true,
-        "server_name": "mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vl/SaXqikbSPA3ImtmZKAFin?ed=2560fp=chrome",
-        "headers": {
-          "Host": "mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV"
-        }
-      }
     },
     {
       "type": "selector",
