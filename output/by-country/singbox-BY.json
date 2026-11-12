@@ -42,12 +42,8 @@
       "type": "vless",
       "tag": "🇧🇾 白俄罗斯 (Belarus) 03 - xiaohe",
       "server": "178.172.227.124",
-      "server_port": 14430,
-      "uuid": "1af36694-b548-4b18-89a0-bc076eab4ed7",
-      "transport": {
-        "type": "ws",
-        "path": "/vless"
-      }
+      "server_port": 10443,
+      "uuid": "1af36694-b548-4b18-89a0-bc076eab4ed7"
     },
     {
       "type": "vless",
@@ -71,13 +67,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇧🇾 白俄罗斯 (Belarus) 05 - xiaohe",
-      "server": "178.172.227.124",
-      "server_port": 10443,
-      "uuid": "1af36694-b548-4b18-89a0-bc076eab4ed7"
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -85,8 +74,7 @@
         "🇧🇾 白俄罗斯 (Belarus) 01 - xiaohe",
         "🇧🇾 白俄罗斯 (Belarus) 02 - xiaohe",
         "🇧🇾 白俄罗斯 (Belarus) 03 - xiaohe",
-        "🇧🇾 白俄罗斯 (Belarus) 04 - xiaohe",
-        "🇧🇾 白俄罗斯 (Belarus) 05 - xiaohe"
+        "🇧🇾 白俄罗斯 (Belarus) 04 - xiaohe"
       ]
     },
     {
@@ -96,8 +84,7 @@
         "🇧🇾 白俄罗斯 (Belarus) 01 - xiaohe",
         "🇧🇾 白俄罗斯 (Belarus) 02 - xiaohe",
         "🇧🇾 白俄罗斯 (Belarus) 03 - xiaohe",
-        "🇧🇾 白俄罗斯 (Belarus) 04 - xiaohe",
-        "🇧🇾 白俄罗斯 (Belarus) 05 - xiaohe"
+        "🇧🇾 白俄罗斯 (Belarus) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
