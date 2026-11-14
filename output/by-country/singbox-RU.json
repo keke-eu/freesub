@@ -6,13 +6,16 @@
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
-      "server": "200.102.183.57",
-      "server_port": 80,
+      "server": "200.102.183.50",
+      "server_port": 443,
       "uuid": "664f65f4-33b3-43a3-b9e5-68192d1d428e",
       "tls": {
         "enabled": true,
-        "server_name": "68r2nrw6avta71yq.cdn.cachefleet.com",
+        "server_name": "f2hbck5x3c0g8pl7.cdn.cachefleet.com",
         "insecure": false,
+        "alpn": [
+          "h2"
+        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -26,16 +29,13 @@
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-      "server": "200.102.183.50",
-      "server_port": 443,
+      "server": "200.102.183.57",
+      "server_port": 80,
       "uuid": "664f65f4-33b3-43a3-b9e5-68192d1d428e",
       "tls": {
         "enabled": true,
-        "server_name": "f2hbck5x3c0g8pl7.cdn.cachefleet.com",
+        "server_name": "68r2nrw6avta71yq.cdn.cachefleet.com",
         "insecure": false,
-        "alpn": [
-          "h2"
-        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -86,6 +86,29 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 06 - xiaohe",
+      "server": "185.86.147.175",
+      "server_port": 443,
+      "uuid": "7955bf18-35c4-412d-aabd-c0b36c793063",
+      "tls": {
+        "enabled": true,
+        "server_name": "bhjolq0d0l.flowersgood.top",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/service/telemetry/045d381f1166/",
+        "headers": {
+          "Host": "bhjolq0d0l.flowersgood.top"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -94,7 +117,8 @@
         "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 05 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 06 - xiaohe"
       ]
     },
     {
@@ -105,7 +129,8 @@
         "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 05 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 06 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
