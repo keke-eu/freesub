@@ -6,16 +6,16 @@
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
-      "server": "147.45.47.101",
+      "server": "48.103.133.47",
       "server_port": 8443,
-      "uuid": "27f26dee-9cf1-4cca-93f8-9ac23d311408",
+      "uuid": "2ed34e7c-45c5-4e0e-bcab-42fe99a7bd25",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -59,7 +59,7 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         }
       },
       "transport": {
@@ -68,45 +68,25 @@
       }
     },
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
-      "server": "103.88.243.142",
-      "server_port": 11592,
-      "password": "41edb44c8e",
+      "server": "136.148.83.69",
+      "server_port": 443,
+      "uuid": "666821a2-5c3d-0001-a56f-5a3a562d7324",
       "tls": {
         "enabled": true,
-        "server_name": "srv-17e124.21freedom.net",
-        "insecure": true
+        "server_name": "szqbx-ru-77dc.my-fade.cloud",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
       }
     },
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
-      "server": "78.159.245.147",
-      "server_port": 445,
-      "uuid": "37af0181-5598-4aad-a040-d926bcb65757",
-      "tls": {
-        "enabled": true,
-        "server_name": "passport.yandex.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "VHWmCkZwC5XE-ctv0p8BinjoIx4SWgJUIsZPrhNf6TA",
-          "short_id": ""
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "grpc"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 06 - xiaohe",
-      "server": "xssite.webredirect.org",
+      "server": "147.45.175.81",
       "server_port": 443,
       "uuid": "c90395e6-2140-47ad-a54d-9b166729d3ef",
       "tls": {
@@ -125,22 +105,23 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 07 - xiaohe",
-      "server": "xsru1.ddnsfree.com",
-      "server_port": 443,
-      "uuid": "c90395e6-2140-47ad-a54d-9b166729d3ef",
+      "tag": "🇷🇺 俄罗斯 (Russia) 06 - xiaohe",
+      "server": "147.45.47.101",
+      "server_port": 8443,
+      "uuid": "27f26dee-9cf1-4cca-93f8-9ac23d311408",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "xsru1.ddnsfree.com",
-        "insecure": false,
+        "server_name": "apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "short_id": "6ba85179e30d4fc2"
         }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "grpc-ru"
       }
     },
     {
@@ -153,8 +134,7 @@
         "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 06 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 07 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 06 - xiaohe"
       ]
     },
     {
@@ -166,8 +146,7 @@
         "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 06 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 07 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 06 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -6,15 +6,46 @@
     {
       "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 01 - xiaohe",
-      "server": "45.144.234.157",
-      "server_port": 14430,
-      "uuid": "59b0d30e-9b29-4fda-a35c-b2901ec32db7",
-      "transport": {
-        "type": "ws",
-        "path": "/vless",
-        "headers": {
-          "Host": "45.144.234.157"
+      "server": "179.254.126.220",
+      "server_port": 443,
+      "uuid": "d3863595-3afe-4a74-8305-612ab69cd21c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "4c980ft.fi15.h1clayd.click",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "-ZN1kT3JlPFxu1E906JRqLAGoQQucSmL6xPiuAyasTk",
+          "short_id": "597e1c279d224774"
         }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 02 - xiaohe",
+      "server": "185.88.101.105",
+      "server_port": 443,
+      "uuid": "f2341274-8dd8-4b80-95fd-780641f6f2da",
+      "tls": {
+        "enabled": true,
+        "server_name": "fl13.svinka.pro",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "aFsY-EZjSNTomlAFShKwQIQMJ5pHiZQXXJpWvcz8WkQ",
+          "short_id": "0858af97f4e7324d"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "fl13svinkapro-grpc"
       }
     },
     {
@@ -22,14 +53,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇫🇮 芬兰 (Finland) 01 - xiaohe"
+        "🇫🇮 芬兰 (Finland) 01 - xiaohe",
+        "🇫🇮 芬兰 (Finland) 02 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇫🇮 芬兰 (Finland) 01 - xiaohe"
+        "🇫🇮 芬兰 (Finland) 01 - xiaohe",
+        "🇫🇮 芬兰 (Finland) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
